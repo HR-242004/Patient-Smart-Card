@@ -1,0 +1,39 @@
+.hero {
+    height: 100vh;
+    background: linear-gradient(to right, #1e3a8a, #3b82f6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+  }
+  
+  h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    background-color: #fbbf24;
+    color: #1e3a8a;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .cta-button:hover {
+    background-color: #f59e0b;
+    transition: 0.3s ease;
+  }
+  

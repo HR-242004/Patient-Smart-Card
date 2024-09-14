@@ -1,0 +1,41 @@
+.about-container {
+    padding: 50px;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #f9fafb;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-container h1 {
+    text-align: center;
+    color: #1e3a8a;
+    margin-bottom: 30px;
+    font-size: 36px;
+  }
+  
+  .about-content {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .about-content h2 {
+    margin-top: 30px;
+    font-size: 28px;
+    color: #1e3a8a;
+  }
+  
+  .about-content p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .about-content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .about-content ul li {
+    margin-bottom: 10px;
+  }
+  
