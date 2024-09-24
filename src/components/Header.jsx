@@ -11,7 +11,7 @@ const Header = () => {
           <li><Link to="/">Home</Link></li>
           <li><Link to="/patients">Patients</Link></li>
           <li><Link to="/about">About</Link></li>
-          <li><Link to="/contact">Contact</Link></li>
+          <li><Link to="/contact">Contact us</Link></li>
         </ul>
         <div className="redirects">
           <Link to="/login"><button>Login</button></Link>

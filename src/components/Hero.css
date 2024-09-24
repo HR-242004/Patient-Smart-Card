@@ -1,10 +1,11 @@
 .hero {
     height: 100vh;
-    background: linear-gradient(to right, #1e3a8a, #3b82f6);
+    background-image: url("https://firearmrights.ca/wp-content/uploads/2019/02/1457378853878.jpg");
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: rgb(12, 10, 10);
     text-align: center;
   }
   
