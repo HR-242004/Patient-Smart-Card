@@ -16,7 +16,7 @@
   
   .login-form {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
   }
   
   .input-group {

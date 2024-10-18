@@ -7,7 +7,7 @@ const Patient = () => {
       <form action="#">
         <div className="form first">
           <div className="details personal">
-            <span className="title">Parsonal Details</span>
+            {/* <span className="title">Parsonal Details</span> */}
             <div className="fields">
               <div className="input-fields">
                 <label>Full Name</label>

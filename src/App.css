@@ -1,3 +1,11 @@
 body{
     background-image: url("https://firearmrights.ca/wp-content/uploads/2019/02/1457378853878.jpg");
+    background-size: cover;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }

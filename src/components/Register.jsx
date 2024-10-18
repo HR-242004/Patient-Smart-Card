@@ -21,6 +21,8 @@ const Register = () => {
           <input type="password" name="confirmPassword" required />
         </label>
         <input type="submit" value="Register" />
+        <label>
+        </label>
       </form>
     </div>
   )

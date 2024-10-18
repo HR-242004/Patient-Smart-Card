@@ -1,16 +1,30 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { Link, useNavigate } from 'react-router-dom';
+import { useState } from 'react';
+import axios from "axios";
+
 import './Signup.css';
 
 const Signup = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const navigate = useNavigate();
 
   const handleSignup = (e) => {
-    e.preventDefault();
-    // Handle signup logic here
-    console.log({ name, email, password });
-  };
+    e.preventDefault()
+   
+      
+      axios.post("http://localhost:3001/signup", { name, email, password })
+        .then(result => {
+          console.log(result)
+          navigate('/login')
+        })
+        .catch(error => {
+          setPasswordError('Failed to signup, please try again later.')
+        })
+  }
+
 
   return (
     <div className="signup-container">
